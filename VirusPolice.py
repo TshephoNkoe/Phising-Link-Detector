@@ -7,7 +7,7 @@ import base64
 
 # Function to check URL against VirusTotal
 def check_url():
-    api_key = 'f45ffae21d2a0047a0653b060c8ecd629927a5665fa56e310fac08d61db11495'
+    api_key = ''
     url = url_entry.get()
 
     if not url:
